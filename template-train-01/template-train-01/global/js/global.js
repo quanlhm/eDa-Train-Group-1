@@ -228,7 +228,7 @@ $(document).ready(function () {
   if ($(".ref-container").length > 0) {
     $(".icon-ref").on("touchend click", function () {
       $(".ref-container").show();
-
+      
       $(".icon-ref").addClass("active");
     });
   } else {
