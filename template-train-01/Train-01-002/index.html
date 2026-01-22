@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
     <meta
@@ -8,19 +8,80 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="format-detection" content="telephone=no" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link href="./global/css/jquery.mobile-1.4.5.min.css" rel="stylesheet" type="text/css">
+    <link
+      href="./global/css/jquery.mobile-1.4.5.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
     <link href="./global/css/font.css" type="text/css" rel="stylesheet" />
     <link href="./global/css/global.css" type="text/css" rel="stylesheet" />
     <link href="css/main.css" type="text/css" rel="stylesheet" />
-    <script src="https://yuemia.oss-cn-shanghai.aliyuncs.com/dataproduct/buried-data/medbp-web.min.js"></script>
   </head>
 
   <body>
     <div id="container" class="bg">
+      <div class="ghost"></div>
       <div id="main-container">
         <!--start: content-->
-        <h1 class="main-title po green">Lorem Ipsum is simply dummy text of the printing</h1>
-
+        <div class="main-title po green bold">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          <br />
+          industry. Lorem Ipsum has been the industry’s standard dummy text ever
+          <br />
+          since the 1500s <sup>(1)</sup>
+        </div>
+        <div class="chart-title po green regular">
+          Lorem Ipsum has been the industry’s <br />standard dummy text
+        </div>
+        <div class="x-label po green regular">Lorem Ipsum</div>
+        <div class="x-tick-labels po">
+          <div class="x-tick-label green regular">0</div>
+          <div class="x-tick-label green regular">20</div>
+          <div class="x-tick-label green regular">40</div>
+          <div class="x-tick-label green regular">60</div>
+          <div class="x-tick-label green regular">80</div>
+        </div>
+        <div class="chart-legends po"></div>
+        <div class="y-label po green regular">
+          Lorem Ipsum has been the <br />
+          industry’s standard dummy text
+        </div>
+        <div class="chart po">
+          <ul class="columns po">
+            <li class="column bold white" style="--percent: 70%">
+              <span class="bar-label">70%</span>
+            </li>
+            <li class="column bold white" style="--percent: 52%">
+              <span class="bar-label">52%</span>
+            </li>
+            <li class="column bold white" style="--percent: 40%">
+              <span class="bar-label">40%</span>
+            </li>
+            <li class="column bold white" style="--percent: 25%">
+              <span class="bar-label">25%</span>
+            </li>
+            <li class="column bold white" style="--percent: 62%">
+              <span class="bar-label">62%</span>
+            </li>
+          </ul>
+        </div>
+        <div class="small-chart po">
+          <ul class="small-chart-columns po">
+            <li class="small-chart-column bold white" style="--percent: 43%">
+              <span class="bar-label">43%</span>
+            </li>
+            <li class="small-chart-column bold white" style="--percent: 24%">
+              <span class="bar-label">24%</span>
+            </li>
+          </ul>
+        </div>
+        <div class="chart-note po white regular align-center">
+          <span class="note-text"
+            >Lorem Ipsum is simply <br />
+            dummy text of the printing and typesetting industry. <br />
+            Lorem Ipsum has been the <br />industry’s standard.</span
+          >
+        </div>
         <!--end: content-->
       </div>
       <!--end: #main-container-->
@@ -38,11 +99,11 @@
       <!-- pu-ref-here -->
       <div class="ref-container">
         <div class="ref-content">
-            <div class="title po green">Tài liệu tham khảo</div>
-            <ul>
-              <li>Behrman 2007</li>
-            </ul>
-            <div class="ref-close"></div>
+          <div class="title po green">Tài liệu tham khảo</div>
+          <ul>
+            <li>Behrman 2007</li>
+          </ul>
+          <div class="ref-close"></div>
         </div>
       </div>
     </div>
@@ -53,7 +114,11 @@
       type="text/javascript"
       charset="utf-8"
     ></script>
-    <script src="./global/js/jquery.mobile-1.4.5.min.js" type="text/javascript" charset="utf-8"></script>
+    <script
+      src="./global/js/jquery.mobile-1.4.5.min.js"
+      type="text/javascript"
+      charset="utf-8"
+    ></script>
     <script src="./global/js/jquery.ui.touch-punch.min.js"></script>
     <script src="./global/js/iscroll.js"></script>
     <script src="./global/js/veeva-library.js"></script>
