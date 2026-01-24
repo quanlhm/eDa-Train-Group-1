@@ -1,0 +1,114 @@
+.ghost {
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.5; 
+    z-index: 10;
+    background: url(../thumb.png) no-repeat center center / contain;
+    display: none;
+}
+.logo-crux {
+    margin-right: 2vw;
+}
+.bg-icon {
+    margin-right: 2.1vw;
+}
+.icon {
+    bottom: 3.1vh;
+    left: 8.2vw;
+}
+
+
+.clip-img {
+    width: 117.1875vh;
+    height: 39.140625vh;
+    aspect-ratio: 1500/501;
+    background: url(../images/main-clip.png) no-repeat center center / contain;
+    top: 0vh;
+    left: 16.4vh;
+}
+
+.clip-frame {
+    width: 117.1875vh;
+    height: 39.140625vh;
+    aspect-ratio: 1500/501;
+    background: url(../images/asset-9.png) no-repeat center center / contain;
+    top: 0vh;
+    left: 16.4vh;
+}
+.popup {
+    width: 38.828125vh;
+    height: 29.84375vh;
+    aspect-ratio: 497/382;
+    background: url(../images/popup.png) no-repeat center center / contain;
+    top: 45vh;
+    left: 12.4vh;
+}
+
+.popup.pop2
+{
+    left: 55.4vh;
+}
+.popup.pop3
+{
+    left: 98.4vh;
+}
+
+.popup-title {
+    color: white;
+    font-size: 2.5vh;
+    line-height: 3vh;
+    text-align: center;
+    top: 1.9vh;
+    left: 2.1vh;
+}
+
+.popup-text
+{
+    font-size: 1.875vh;
+    line-height: 2.25vh;
+    text-align: center;
+    top: 12.9vh;
+    left: 2.1vh;
+
+}
+
+.clip-container
+{
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+.clip-container.show{
+    opacity: 1;
+}
+
+.pop1
+{
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+.pop1.show{
+    opacity: 1;
+}
+
+.pop2
+{
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+.pop2.show{
+    opacity: 1;
+}
+.pop3
+{
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+.pop3.show{
+    opacity: 1;
+}
+
+

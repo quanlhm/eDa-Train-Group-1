@@ -1,0 +1,76 @@
+.ghost {
+    width: 121.6666666666667vw;
+    height: 100vh;
+    aspect-ratio: 2336/1280;
+    opacity: 1; 
+    z-index: 0;
+    background: url(../images/bg.png) no-repeat center center / contain;
+    left: -16.3vh;
+    
+}
+.title {
+    font-size: 4.6875vh;
+    top: 35vh;
+    left: 12.6vh;
+    line-height: 5.6vh;
+}
+
+.content {
+    font-size: 2.34375vh;
+    top: 55.58vh;
+    left: 12.7vh;
+    line-height: 2.82vh;
+}
+
+.title
+{
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+.title.show
+{
+    opacity: 1;
+}
+
+.content
+{
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+.content.show
+{
+    opacity: 1;
+}
+
+.product
+{
+    width: 47.13541666666667vw;
+    aspect-ratio: 950/950;
+    background: url(../images/product.png) no-repeat center center / contain;
+    top: 30.2vh;
+    left: 76vh;
+}
+
+.product
+{
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+.product.show
+{
+    opacity: 1;
+}
+.logo-crux {
+    margin-right: 2vw;
+}
+.bg-icon {
+    margin-right: 2.1vw;
+}
+.icon {
+    bottom: 3.1vh;
+    left: 8.2vw;
+}
+
