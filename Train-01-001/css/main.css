@@ -1,9 +1,11 @@
 .ghost {
-    width: 100vw;
+    width: 121.6666666666667vw;
     height: 100vh;
+    aspect-ratio: 2336/1280;
     opacity: 1; 
-    z-index: 10;
-    background: url(../thumb.png) no-repeat center center / contain;
+    z-index: 0;
+    background: url(../images/bg.png) no-repeat center center / contain;
+    left: -16.3vh;
     
 }
 .title {
