@@ -1,8 +1,8 @@
 $(document).ready(function () {
     // setting slide
-    currentSlide = "001";
+    currentSlide = "004";
     localStorage.setItem('current-slide', currentSlide);
-    disableSwipe = false;
+    // disableSwipe = false;
 
     //animation, if have serveral class with the same time appear, delcare in an array
     const animations = {
@@ -18,10 +18,10 @@ $(document).ready(function () {
     var el = document.getElementById('container');
     swipedetect(el, function (swipedir) {
         if (swipedir == 'left') {
-            window.goToSlide("003");
+            window.goToSlide("005");
         }
         if (swipedir == 'right') {
-            // disableSwipe = true;
+            window.goToSlide("003");
         }
     });
 });
