@@ -12,27 +12,42 @@
     <link href="./global/css/font.css" type="text/css" rel="stylesheet" />
     <link href="./global/css/global.css" type="text/css" rel="stylesheet" />
     <link href="css/main.css" type="text/css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2"></script>
     <script src="https://yuemia.oss-cn-shanghai.aliyuncs.com/dataproduct/buried-data/medbp-web.min.js"></script>
   </head>
 
   <body>
     <div id="container" class="bg">
-      <div id="main-container" class="padding-md flex flex-col gap-md">
+      <div id="main-container" class="padding-md flex flex-col gap-sm">
         <!--start: content-->
-        <h1 class="main-title green ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s</h1>
+        <h1 class="main-title green">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s</h1>
 
-        <p class="green">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard</p>
+        <div class="flex-self-center">
+          <div class="chart-container text-center flex flex-col gap-sm">
+              <p class="green md-txt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard</p>
+              
+              <div class="flex gap-sm">
+                  <div class="green flex flex-wrap sm-txt left-chart-label">
+                    Lorem Ipsum has been the industry’s standard dummy text
+                  </div>
+                  
+                  <canvas id="chart"></canvas>
 
-        <div class="chart-container flex justify-center items-center">
-          <div id="chart" class="base-chart">
-            <div class="data-container flex flex-col justify-center items-center gap-md border">
-              <div class="col-container flex gap-sm">
-                <div class="col flex flex-col border"></div>
-                <div class="col flex flex-col border"></div>
-              </div>              
-            </div>
-            <p class="col-title green">Aaaa</p>
+                  <div class="def-col-container flex flex-col flex-self-end gap-sm">
+                    <div class="flex gap-sm">
+                      <div class="def-green-col"></div>
+                      <p>ipsum</p>
+                    </div>
 
+                    <div class="flex gap-sm">
+                      <div class="def-gray-col"></div>
+                      <p>ipsum</p>
+                    </div>
+                  </div>
+              </div>
+              
+              <p class="green sm-txt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s</p>
           </div>
         </div>
         <!--end: content-->
