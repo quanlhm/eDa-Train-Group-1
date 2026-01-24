@@ -1,0 +1,118 @@
+.ghost {
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.5; 
+    z-index: 10;
+    background: url(../thumb.png) no-repeat center center / contain;
+    display: none;
+    
+}
+.title {
+    font-size: 3.359375vh;
+    top: 5.4vh;
+    left: 12.6vh;
+}
+.logo-crux {
+    margin-right: 2vw;
+}
+.bg-icon {
+    margin-right: 2.1vw;
+}
+.icon {
+    bottom: 3.1vh;
+    left: 8.2vw;
+}
+.pop-up-ai {
+   
+    height: 16.25vh;
+    width: 41.56250000000001vh;
+    aspect-ratio: 532/208;
+    background: url(../images/pop-up-ai.png) no-repeat center center / contain;
+    top: 30.2vh;
+    left: 76vh;
+    
+}
+
+.pop-up-ai .pop-up-text
+{
+    font-size: 2.5vh;
+    line-height: 3.2vh;
+    color: white;
+}
+
+.pop-up-text
+{
+    top: 6.5vh;
+    left: 3.2vh;
+}
+
+.pop-up-ai.pop1
+{
+    top: 13vh;
+    left: 20vh;
+}
+
+.pop-up-ai.pop2
+{
+    top: 46vh;
+    left: 20vh;
+}
+
+.image {
+   
+    height: 61.875vh;
+    aspect-ratio: 950/950;
+    background: url(../images/body-image.png) no-repeat center center / contain;
+    top: 13.9vh;
+    left: 70.2vh;
+    
+}
+.i {
+    color: white;
+    font-size: 3.59375vh;
+    top: 0.5vh;
+    left: 35.7vh;
+}
+
+.pop-up-ai.pop1
+{
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+.pop-up-ai.pop1.show{
+    opacity: 1;
+}
+
+.pop-up-ai.pop2
+{
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+.pop-up-ai.pop2.show{
+    opacity: 1;
+}
+
+.title
+{
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+.title.show{
+    opacity: 1;
+}
+
+.image
+{
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+.image.show{
+    opacity: 1;
+}
+
+
+
