@@ -19,10 +19,10 @@ $(document).ready(function () {
     var el = document.getElementById('container');
     swipedetect(el, function (swipedir) {
         if (swipedir == 'left') {
-          
+          window.goToSlide("002");
         }
         if (swipedir == 'right') {
-             window.goToSlide("002");
+             disableSwipe = false;
            
         }
     });

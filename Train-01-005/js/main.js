@@ -22,10 +22,10 @@ $(document).ready(function () {
     var el = document.getElementById('container');
     swipedetect(el, function (swipedir) {
         if (swipedir == 'left') {
-            window.goToSlide("004");
+            window.goToSlide("006");
         }
         if (swipedir == 'right') {
-            window.goToSlide("006");
+            window.goToSlide("004");
         }
     });
 });

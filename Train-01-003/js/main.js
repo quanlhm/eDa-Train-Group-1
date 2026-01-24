@@ -20,10 +20,38 @@ $(document).ready(function () {
     var el = document.getElementById('container');
     swipedetect(el, function (swipedir) {
         if (swipedir == 'left') {
-            window.goToSlide("002");
-        }
-        if (swipedir == 'right') {
             window.goToSlide("004");
         }
+        if (swipedir == 'right') {
+            window.goToSlide("002");
+        }
+    });
+   
+    
+   
+    const allContainers = document.querySelectorAll('.pop-up-ai');
+    allContainers.forEach(function(container) {
+        const popup = container.querySelector('.hide-popup');
+        const btnI = container.querySelector('.i.po');
+        const handleToggle = function(e) {
+            if (popup) {
+                if (popup.classList.contains('hidden')) {
+                    // HIỆN
+                    popup.classList.replace('hidden', 'show');
+                    if(btnI) btnI.innerText = 'X'; 
+                } else {
+                    // ẨN
+                    popup.classList.replace('show', 'hidden');
+                    if(btnI) btnI.innerText = 'i'; 
+                }
+            }
+        };
+        container.addEventListener('touchend', function(e) {
+            e.preventDefault(); 
+            handleToggle(e);
+        });
+        container.addEventListener('click', function(e) {
+            handleToggle(e);
+        });
     });
 });

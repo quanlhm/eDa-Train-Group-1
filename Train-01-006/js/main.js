@@ -23,9 +23,10 @@ $(document).ready(function () {
     var el = document.getElementById('container');
     swipedetect(el, function (swipedir) {
         if (swipedir == 'left') {
-            window.goToSlide("005");
+            disableSwipe = false;
         }
         if (swipedir == 'right') {
+            window.goToSlide("005");
             
         }
     });

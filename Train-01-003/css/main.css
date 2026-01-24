@@ -32,6 +32,37 @@
     left: 76vh;
     
 }
+.hide-popup {
+   
+    height: 33.28125vh;
+    aspect-ratio: 583/426;
+    background: url(../images/half-pop-up-ai-new.png) no-repeat center center / contain;
+    top: -2.9vh;
+    left: -2vh;
+
+    
+}
+.hidden
+{
+    display: none;
+}
+.showw
+{
+    display: b;
+}
+.hide-text
+{
+    top: 19vh;
+    left: 5vh;
+    font-size: 1.875vh;
+    line-height: 2.25vh;
+}
+/* .hide-text.hide-2
+{
+    top: 30vh;
+    left: 3vh;
+
+} */
 
 .pop-up-ai .pop-up-text
 {
@@ -113,6 +144,7 @@
 .image.show{
     opacity: 1;
 }
+
 
 
 
