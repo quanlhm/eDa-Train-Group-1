@@ -38,11 +38,13 @@ $(document).ready(function () {
                 if (popup.classList.contains('hidden')) {
                     // HIỆN
                     popup.classList.replace('hidden', 'show');
-                    if(btnI) btnI.innerText = 'X'; 
+                    if(btnI) btnI.innerHTML = '&times;';
+                    btnI.style.left = '35.2vh';
                 } else {
                     // ẨN
                     popup.classList.replace('show', 'hidden');
                     if(btnI) btnI.innerText = 'i'; 
+                    btnI.style.left = '35.7vh';
                 }
             }
         };

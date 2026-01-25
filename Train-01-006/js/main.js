@@ -30,4 +30,29 @@ $(document).ready(function () {
             
         }
     });
+    
+    
+    
+    const slideMapping = {
+        ".img1": "001",
+        ".img2": "002",
+        ".img3": "003",
+        ".img4": "004",
+        ".img5": "005"
+    };
+
+    Object.keys(slideMapping).forEach((selector) => {
+        $(selector).on("touchend click", function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            const targetSlide = slideMapping[selector];
+            console.log("Navigating to slide:", targetSlide);
+            if (window.goToSlide) {
+                window.goToSlide(targetSlide);
+            }
+        });
+    });
+
+   
+   
 });
