@@ -4,7 +4,7 @@
     opacity: 0.5; 
     z-index: 10;
     background: url(../thumb.png) no-repeat center center / contain;
-    display: none;
+    
 }
 .logo-crux {
     margin-right: 2vw;
@@ -53,55 +53,51 @@
 }
 
 .img.img1 {
-    height: 20vh;
+    height: 17.890625vh;
     
-    width: 18.828125vh;
+    width: 15.26041666666667vw;
     background: url(../images/anh1.png) no-repeat center center / contain;
-    top: 16.85vh;
-    left: 13.8vh;
+    top: 18.5vh;
+    left: 11.8vh;
     border-radius: 5vh;
     
 }
 .img.img2 {
-    height: 20vh;
-    
-    width: 18.828125vh;
-    background: url(../images/anh2.png) no-repeat center center / contain;
-    top: 16.85vh;
-    left: 65.5vh;
+    height: 17.890625vh;
+    width: 15.26041666666667vw;
+    background: url(../images/anh3.png) no-repeat center center / contain;
+    top: 18.5vh;
+    left: 37.6vh;
     border-radius: 5vh;
     
 }
 
 .img.img3 {
-    height: 20vh;
-    
-    width: 18.828125vh;
-    background: url(../images/anh3.png) no-repeat center center / contain;
-    top: 16.85vh;
-    left: 39.6vh;
+    height: 17.890625vh;
+    width: 15.26041666666667vw;
+    background: url(../images/anh2.png) no-repeat center center / contain;
+    top: 18.5vh;
+    left: 63.5vh;
     border-radius: 5vh;
     
 }
 
 .img.img4 {
-    height: 20vh;
-    
-    width: 18.828125vh;
+    height: 17.890625vh;
+    width: 15.26041666666667vw;
     background: url(../images/anh4.png) no-repeat center center / contain;
-    top: 16.85vh;
-    left: 91.4vh;
+    top: 18.5vh;
+    left: 89.4vh;
     border-radius: 5vh;
     
 }
 
 .img.img5 {
-    height: 20vh;
-    
-    width: 18.828125vh;
+    height: 17.890625vh;
+    width: 15.26041666666667vw;
     background: url(../images/anh5.png) no-repeat center center / contain;
-    top: 16.85vh;
-    left: 117.3vh;
+    top: 18.5vh;
+    left: 115.3vh;
     border-radius: 5vh;
     
 }
