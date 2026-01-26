@@ -140,7 +140,7 @@
     #73cee4 100%
   );
   box-sizing: border-box;
-  padding-top: clamp(2vh, 5vh, calc(89.25 / 1280 * 100vh));
+  padding-top: 5vh;
   text-align: center;
   animation: grow-up 1s ease-in-out;
 }
@@ -179,7 +179,7 @@
     #73cee4 100%
   );
   box-sizing: border-box;
-  padding-top: clamp(2vh, 5vh, calc(89.25 / 1280 * 100vh));
+  padding-top: 5vh;
   text-align: center;
   animation: grow-up 1s ease-in-out;
 }
@@ -189,7 +189,7 @@
   left: 73.6vw;
   top: 45.8vh;
   width: 18vw;
-  border-radius: calc(32 / 1920 * 100vw);
+  border-radius: 1.67vw;
   box-sizing: border-box;
   padding: 31.2px;
   opacity: 0;
@@ -201,8 +201,8 @@
 }
 
 .note-text {
-  font-size: calc(24 / 1280 * 100vh);
-  width: calc(296.55 / 1920 * 100vw);
+  font-size: 1.875vh;
+  width: 15.45vw;
   line-height: 2.2vh;
   text-align: center;
 }
