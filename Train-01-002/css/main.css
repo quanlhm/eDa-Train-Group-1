@@ -130,10 +130,15 @@
 
 .column {
   align-self: flex-end;
-  width: 4.38vh;
+  width: 4.38vw;
   height: var(--percent);
   border-radius: 12px 12px 0 0;
-  background: linear-gradient(180deg, #5fb4c8 0%, 20%, #0e3d26 100%);
+  background: linear-gradient(
+    0deg, 
+    #0c4726 0%, 
+    #3d715b 75%, 
+    #73cee4 100%
+  );
   box-sizing: border-box;
   padding-top: clamp(2vh, 5vh, calc(89.25 / 1280 * 100vh));
   text-align: center;
@@ -164,10 +169,15 @@
 
 .small-chart-column {
   align-self: flex-end;
-  width: 4.38vh;
+  width: 4.38vw;
   height: var(--percent);
   border-radius: 12px 12px 0 0;
-  background: linear-gradient(180deg, #5fb4c8 0%, 20%, #0e3d26 100%);
+  background: linear-gradient(
+    0deg, 
+    #0c4726 0%, 
+    #3d715b 75%, 
+    #73cee4 100%
+  );
   box-sizing: border-box;
   padding-top: clamp(2vh, 5vh, calc(89.25 / 1280 * 100vh));
   text-align: center;
