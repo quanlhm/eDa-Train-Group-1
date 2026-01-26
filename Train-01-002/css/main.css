@@ -228,8 +228,11 @@
 }
 /* Logo Override */
 .icon {
+  /* === Pixel fit ===
   bottom: 3.3vh;
-  left: 8vw;
+  left: 8vw; */
+  bottom: 3.1vh;
+  left: 8.2vw;
 }
 .logo-crux {
   background: url("../global/images/nav/logo.png") no-repeat top left / 100%

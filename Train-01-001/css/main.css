@@ -6,8 +6,9 @@
     z-index: 10;
     background: url(../images/bg.png) no-repeat center center / contain;
     left: -16.3vh;
-    
+    pointer-events: none;
 }
+
 .title {
     font-size: 4.6875vh;
     top: 35vh;
