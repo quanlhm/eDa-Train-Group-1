@@ -2,7 +2,7 @@ $(document).ready(function () {
     // setting slide
     currentSlide = "004";
     localStorage.setItem('current-slide', currentSlide);
-    // disableSwipe = false;
+    disableSwipe = false;
 
     //animation, if have serveral class with the same time appear, delcare in an array
     const animations = {
