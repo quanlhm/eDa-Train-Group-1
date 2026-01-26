@@ -1,0 +1,243 @@
+/* .ghost {
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.5;
+  z-index: 10;
+  background: url(../thumb.png) no-repeat center top / 100% auto;
+} */
+
+#container {
+  aspect-ratio: 1.5;
+}
+
+.main-title {
+  font-size: calc(43 / 1280 * 100vh);
+  top: 5.6vh;
+  left: 8.5vw;
+  line-height: 4vh;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.main-title.show {
+  opacity: 1;
+}
+
+.chart-title {
+  font-size: calc(32 / 1280 * 100vh);
+  top: 22.8vh;
+  left: 21.2vw;
+  text-align: center;
+  line-height: 3vh;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.chart-title.show {
+  opacity: 1;
+}
+
+.x-label {
+  font-size: calc(22 / 1280 * 100vh);
+  left: 31.31vw;
+  top: 74.1vh;
+  text-align: center;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.x-label.show {
+  opacity: 1;
+}
+
+.x-tick-labels {
+  font-size: calc(22 / 1280 * 100vh);
+  left: 12.5vw;
+  top: 68.1vh;
+  height: 0vh;
+  width: 0vw;
+  text-align: center;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: calc(85.5 / 1280 * 100vh);
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.x-tick-labels.show {
+  opacity: 1;
+}
+
+.x-tick-labels :first-child {
+  padding-top: calc(12.2 / 1280 * 100vh);
+}
+
+.x-tick-label {
+  text-align: right;
+  height: calc(24 / 1280 * 100vh);
+  width: 1.3vw;
+}
+
+.chart-legends {
+  font-size: calc(22 / 1280 * 100vh);
+  width: 32vw;
+  height: 2vh;
+  top: 68.5vh;
+  left: 19vw;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 2.7vw;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.chart-legends.show {
+  opacity: 1;
+}
+
+.y-label {
+  font-size: calc(22 / 1280 * 100vh);
+  transform: translate(-50%, -50%) rotate(-90deg);
+  left: 9.6vw;
+  top: 49.7vh;
+  text-align: center;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.y-label.show {
+  opacity: 1;
+}
+
+.chart {
+  background: url("../images/chart-axises.png") no-repeat center top / 100% auto;
+  top: 32.1vh;
+  left: 14.9vw;
+  height: 37vh;
+  width: 40vw;
+}
+
+.columns {
+  display: flex;
+  flex-direction: row;
+  gap: calc(48.53 / 1920 * 100vw);
+  top: -10vh;
+  left: 4vw;
+  height: calc(578.75 / 1280 * 100vh);
+}
+
+.column {
+  align-self: flex-end;
+  width: calc(84.08 / 1920 * 100vw);
+  height: var(--percent);
+  border-radius: 12px 12px 0 0;
+  background: linear-gradient(180deg, #5fb4c8 0%, 20%, #0e3d26 100%);
+  box-sizing: border-box;
+  padding-top: clamp(2vh, 5vh, calc(89.25 / 1280 * 100vh));
+  text-align: center;
+  animation: grow-up 1s ease-in-out;
+}
+
+.bar-label {
+  animation: fade-text 2s ease-in-out;
+}
+
+.small-chart {
+  background: url(../images/small-chart-axises.png) no-repeat center top / 100%
+    auto;
+  top: 32.5vh;
+  left: 57.1vw;
+  height: 36.4vh;
+  width: 14vw;
+}
+
+.small-chart-columns {
+  display: flex;
+  flex-direction: row;
+  gap: calc(48.53 / 1920 * 100vw);
+  top: -10.5vh;
+  left: 1.4vw;
+  height: calc(578.75 / 1280 * 100vh);
+}
+
+.small-chart-column {
+  align-self: flex-end;
+  width: calc(84.08 / 1920 * 100vw);
+  height: var(--percent);
+  border-radius: 12px 12px 0 0;
+  background: linear-gradient(180deg, #5fb4c8 0%, 20%, #0e3d26 100%);
+  box-sizing: border-box;
+  padding-top: clamp(2vh, 5vh, calc(89.25 / 1280 * 100vh));
+  text-align: center;
+  animation: grow-up 1s ease-in-out;
+}
+
+.chart-note {
+  background: linear-gradient(-90deg, #5fb4c8 0%, 20%, #0e3d26 100%);
+  left: 73.6vw;
+  top: 45.8vh;
+  width: 18vw;
+  border-radius: calc(32 / 1920 * 100vw);
+  box-sizing: border-box;
+  padding: 31.2px;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.chart-note.show {
+  opacity: 1;
+}
+
+.note-text {
+  font-size: calc(24 / 1280 * 100vh);
+  width: calc(296.55 / 1920 * 100vw);
+  line-height: 2.2vh;
+  text-align: center;
+}
+
+@keyframes grow-up {
+  from {
+    height: 0;
+    opacity: 0;
+  }
+  to {
+    height: var(--percent);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-text {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Logo Override */
+.icon {
+  bottom: 3.3vh;
+  left: 8vw;
+}
+.logo-crux {
+  background: url("../global/images/nav/logo.png") no-repeat top left / 100%
+    auto;
+  margin-right: 2.2vw;
+}
+
+.bg-icon {
+  margin-right: 2vw;
+}
+
+/* Dispplay ref icon */
+.icon-ref.active {
+  position: absolute;
+  left: 6vw;
+  bottom: 0.5vh;
+  z-index: 10;
+}
+
+.bg-icon:has(.icon-ref.active) {
+  z-index: 10;
+}
