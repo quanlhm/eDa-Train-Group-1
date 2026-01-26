@@ -11,7 +11,7 @@
 }
 
 .main-title {
-  font-size: calc(43 / 1280 * 100vh);
+  font-size: 3.36vh;
   top: 5.6vh;
   left: 8.5vw;
   line-height: 4vh;
@@ -24,7 +24,7 @@
 }
 
 .chart-title {
-  font-size: calc(32 / 1280 * 100vh);
+  font-size: 2.5vh;
   top: 22.8vh;
   left: 21.2vw;
   text-align: center;
@@ -38,7 +38,7 @@
 }
 
 .x-label {
-  font-size: calc(22 / 1280 * 100vh);
+  font-size: 1.72vh;
   left: 31.31vw;
   top: 74.1vh;
   text-align: center;
@@ -51,7 +51,7 @@
 }
 
 .x-tick-labels {
-  font-size: calc(22 / 1280 * 100vh);
+  font-size: 1.72vh;
   left: 12.5vw;
   top: 68.1vh;
   height: 0vh;
@@ -59,7 +59,7 @@
   text-align: center;
   display: flex;
   flex-direction: column-reverse;
-  gap: calc(85.5 / 1280 * 100vh);
+  gap: 6.68vh;
   opacity: 0;
   transition: all 0.5s ease;
 }
@@ -69,17 +69,17 @@
 }
 
 .x-tick-labels :first-child {
-  padding-top: calc(12.2 / 1280 * 100vh);
+  padding-top: 0.95vh;
 }
 
 .x-tick-label {
   text-align: right;
-  height: calc(24 / 1280 * 100vh);
+  height: 1.88vh;
   width: 1.3vw;
 }
 
 .chart-legends {
-  font-size: calc(22 / 1280 * 100vh);
+  font-size: 1.72vh;
   width: 32vw;
   height: 2vh;
   top: 68.5vh;
@@ -97,7 +97,7 @@
 }
 
 .y-label {
-  font-size: calc(22 / 1280 * 100vh);
+  font-size: 1.72vh;
   transform: translate(-50%, -50%) rotate(-90deg);
   left: 9.6vw;
   top: 49.7vh;
@@ -121,15 +121,16 @@
 .columns {
   display: flex;
   flex-direction: row;
-  gap: calc(48.53 / 1920 * 100vw);
+  gap: 2.53vw;
   top: -10vh;
   left: 4vw;
-  height: calc(578.75 / 1280 * 100vh);
+  height: 45.21vh;
+  list-style: none;
 }
 
 .column {
   align-self: flex-end;
-  width: calc(84.08 / 1920 * 100vw);
+  width: 4.38vh;
   height: var(--percent);
   border-radius: 12px 12px 0 0;
   background: linear-gradient(180deg, #5fb4c8 0%, 20%, #0e3d26 100%);
@@ -155,15 +156,15 @@
 .small-chart-columns {
   display: flex;
   flex-direction: row;
-  gap: calc(48.53 / 1920 * 100vw);
+  gap: 2.53vw;
   top: -10.5vh;
   left: 1.4vw;
-  height: calc(578.75 / 1280 * 100vh);
+  height: 45.21vh;
 }
 
 .small-chart-column {
   align-self: flex-end;
-  width: calc(84.08 / 1920 * 100vw);
+  width: 4.38vh;
   height: var(--percent);
   border-radius: 12px 12px 0 0;
   background: linear-gradient(180deg, #5fb4c8 0%, 20%, #0e3d26 100%);
